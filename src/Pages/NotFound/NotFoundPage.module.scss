@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    margin: 24px 0;
+  }
+}

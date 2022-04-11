@@ -1,0 +1,40 @@
+.container {
+  height: 100px;
+  max-width: 1500px;
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.appBar {
+  padding: 2px 0;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logo {
+  max-width: 98px;
+  max-height: 84px;
+  margin: 10px;
+}
+
+.navigation {
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 22px;
+  font-weight: 600;
+}

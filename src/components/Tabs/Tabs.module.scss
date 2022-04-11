@@ -1,0 +1,12 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  max-width: 1600px;
+  min-height: 600px;
+
+  TabPanel {
+    margin: 0;
+  }
+}

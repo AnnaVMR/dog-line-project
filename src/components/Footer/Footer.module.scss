@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  max-width: 1148px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h4 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .contactData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
